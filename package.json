@@ -1,0 +1,18 @@
+{
+  "name": "hashserver",
+  "version": "1.0.0",
+  "description": "Server having HashMap",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Akshay & Sujeeth",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4"
+  },
+  "dependencies": {
+    "node-rest-client": "^3.1.0",
+    "string-hash": "^1.1.3"
+  }
+}
