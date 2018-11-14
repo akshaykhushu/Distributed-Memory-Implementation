@@ -36,10 +36,10 @@ router.get('/getValueFromKey', (request, response) => {
 });
 
 router.get('/populateMap',(request,response)=>{
-	for (x = 0; x < 1000000; x++) {
+	for (x=0; x < 500000; x++) {
   		list[hash(`element${x}`)]=x;
 	}
-	console.log(list[34534]);
+	//console.log(list[999999]);
 	response.json("map populated!");
 });
 
